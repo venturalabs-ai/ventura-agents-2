@@ -52,9 +52,9 @@ Cada agente define:
 
 ## Arquitetura de eficiência
 
-**Explore → Compile → Replay → Regenerate**
+**Explore → Compile → Constrained Replay → Regenerate**
 
-Caminhos de alta qualidade podem ser convertidos em templates e skills determinísticas para reduzir reprocessamento em tarefas recorrentes.
+Caminhos de alta qualidade podem ser convertidos em templates e skills reutilizáveis para reduzir reprocessamento em tarefas recorrentes. O projeto não afirma determinismo de saídas LLM; consistência depende do modelo, runtime, contexto e ferramentas.
 
 ## Segurança
 
