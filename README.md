@@ -1,116 +1,78 @@
 # Ventura Agents II
 
-![MIT](https://img.shields.io/github/license/chamseddinehiddoud/ventura-agents-2)
-![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura-agents-2)
-![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura-agents-2)
+[![License](https://img.shields.io/github/license/venturalabs-ai/ventura-agents-2)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/venturalabs-ai/ventura-agents-2)](https://github.com/venturalabs-ai/ventura-agents-2/stargazers)
+[![Forks](https://img.shields.io/github/forks/venturalabs-ai/ventura-agents-2)](https://github.com/venturalabs-ai/ventura-agents-2/forks)
 
-**2ª coleção** de **10 super agentes de IA de negócio** para o mercado, com a
-identidade da família **Ventura.** — cada um especializado em uma função de
-alta demanda **diferente** da 1ª coleção: produto, customer success, operações,
-suprimentos, segurança cibernética, devops, pesquisa de mercado, precificação,
-e-commerce e treinamento & desenvolvimento.
+Segunda coleção de **10 agentes de IA para funções de negócio e tecnologia**, complementando o repositório [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents).
 
-Cada agente é um **system prompt completo, plugável**: copie o arquivo, anexe
-como system prompt no seu modelo/plataforma (ChatGPT, Claude, Gemini, copilots
-empresariais) e adicione as ferramentas/APIs indicadas no bloco "Ferramentas".
-Todos os agentes carregam **skills e referência de certificação MIT** (MIT
-Sloan Executive Education, MIT xPRO, MIT Professional Education, MITx
-MicroMasters e MIT OpenCourseWare), garantindo profundidade acadêmica e rigor
-de método em cada domínio.
+## Catálogo
 
-## Catálogo (2ª coleção — 10 funções de alta demanda)
+| Agente | Função | Entrega principal |
+|---|---|---|
+| `ventura.produto` | Product Management | descoberta, roadmap, backlog e métricas |
+| `ventura.clientes` | Customer Success | onboarding, retenção e expansão |
+| `ventura.operacoes` | Operações | SOPs, eficiência e KPIs |
+| `ventura.suprimentos` | Supply Chain | estoque, fornecedores e demanda |
+| `ventura.seguranca` | Cibersegurança | risco, políticas e resposta a incidentes |
+| `ventura.devops` | DevOps / SRE | CI/CD, infraestrutura e observabilidade |
+| `ventura.pesquisa` | Pesquisa de mercado | concorrência, personas e tendências |
+| `ventura.precificacao` | Pricing | margem, tiers e elasticidade |
+| `ventura.ecommerce` | E-commerce | catálogo, anúncios e operação |
+| `ventura.treinamento` | T&D | trilhas, onboarding e avaliação |
 
-| # | Agente | Função | Entrega principal |
-|---|---|---|---|
-| 1 | [ventura.produto](ventura.produto.md) | Product Management | descoberta, roadmap, backlog, validação e métricas de produto |
-| 2 | [ventura.clientes](ventura.clientes.md) | Customer Success | onboarding, retenção, churn e expansão de conta |
-| 3 | [ventura.operacoes](ventura.operacoes.md) | Operações & processos | SOPs, eficiência, melhoria contínua e KPIs operacionais |
-| 4 | [ventura.suprimentos](ventura.suprimentos.md) | Supply chain & logística | estoque, fornecedores, distribuição e previsão de demanda |
-| 5 | [ventura.seguranca](ventura.seguranca.md) | Cibersegurança | risco, políticas, resposta a incidentes e conformidade |
-| 6 | [ventura.devops](ventura.devops.md) | DevOps & SRE | CI/CD, infraestrutura, observabilidade e confiabilidade |
-| 7 | [ventura.pesquisa](ventura.pesquisa.md) | Pesquisa de mercado | inteligência competitiva, persona, tendências e insights |
-| 8 | [ventura.precificacao](ventura.precificacao.md) | Estratégia de preços | pricing tiers, margem, elasticidade e promoções |
-| 9 | [ventura.ecommerce](ventura.ecommerce.md) | E-commerce & marketplaces | catálogo, anúncios, reputação e operação de loja |
-| 10 | [ventura.treinamento](ventura.treinamento.md) | Treinamento & desenvolvimento | trilhas, onboarding, conteúdo e avaliação de aprendizagem |
+## Referências acadêmicas
 
-## Anatomia de cada agente
+Alguns agentes usam programas públicos do ecossistema MIT como **referência de conhecimento e método**. Isso não significa certificação do agente, do autor ou do repositório, nem afiliação com o MIT.
 
-```
- 1. Identidade            — nome (ventura.<função>), missão, tom de voz
- 2. Domínio               — escopo de atuação, o que faz / não faz
- 3. Regras de ouro        — princípios inegociáveis (dados, ética, segurança)
- 4. Skill & Certificação  — competências-chave + programas MIT de referência
-    MIT                      (Sloan Exec Ed, xPRO, Professional Education,
-                             MicroMasters, OpenCourseWare)
- 5. Workflow              — pipeline operacional passo a passo
- 6. Entradas e saídas     — o que recebe, o que entrega (contrato)
- 7. Métricas              — KPIs que o agente persegue
- 8. Ferramentas           — integrações sugeridas (CRM, ERP, helpdesk...)
- 9. Autonomia             — o que decide sozinho vs. o que sobe para humano
-10. Exemplo de uso        — prompt de ativação pronto
-```
+## Anatomia de um agente
 
-## Como usar
+Cada agente define:
+
+1. identidade, missão e tom;
+2. domínio e limites;
+3. regras de operação;
+4. competências e referências;
+5. workflow;
+6. entradas e saídas;
+7. métricas;
+8. integrações sugeridas;
+9. autonomia e escalonamento;
+10. exemplo de ativação.
+
+## Uso
 
 ```text
-1. Escolha o agente no catálogo.
-2. Copie o conteúdo do .md como system prompt.
-3. Forneça as variáveis obrigatórias (empresa, persona, contexto, acesso).
-4. Ative com o "Exemplo de uso" do próprio agente.
-5. Conecte as integrações sugeridas para autonomia real.
+1. Escolha o agente.
+2. Carregue o .md como system prompt ou base de configuração.
+3. Forneça contexto e variáveis necessárias.
+4. Conecte ferramentas apenas quando houver autorização e controles adequados.
+5. Valide resultados de alto impacto antes de executar ações externas.
 ```
 
-## Sobre a certificação MIT
+## Arquitetura de eficiência
 
-Os agentes referenciam programas reais do ecossistema MIT como base de método:
-**MIT Sloan Executive Education** (gestão, estratégia, finanças),
-**MIT xPRO** (tecnologia, dados, cloud/devops), **MIT Professional Education**
-(ciência de dados aplicada, cibersegurança), **MITx MicroMasters**
-(supply chain, estatística, gestão de projetos) e **MIT OpenCourseWare**
-(fundamentos públicos). Isso não substitui certificações formais do MIT — é o
-referencial de conhecimento que orienta o comportamento de cada agente.
+**Explore → Compile → Replay → Regenerate**
+
+Caminhos de alta qualidade podem ser convertidos em templates e skills determinísticas para reduzir reprocessamento em tarefas recorrentes.
+
+## Segurança
+
+Prompts não são barreiras de segurança. Integrações reais exigem autenticação, autorização, least privilege, validação, logs e políticas no lado das ferramentas.
 
 ## Família Ventura
 
-| Projeto | Repositório | Foco |
-|---|---|---|
-| **Ventura Agents** | `ventura-agents` | 1ª coleção: 10 agentes de negócio |
-| **Ventura Agents II** | `ventura-agents-2` | 2ª coleção: 10 agentes de negócio |
-| Autor Ventura | `autor-ventura` | super agente escritor (livros) |
-| Ventura Art | `ventura-art` | criação de vídeos multi-plataforma |
-| Ventura Pro | `ventura-pro` | soluções tecnológicas |
+- [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents)
+- [Ventura Pro](https://github.com/venturalabs-ai/ventura-pro)
+- [Ventura.SEG](https://github.com/venturalabs-ai/Ventura.SEG)
+- [Ventura Art](https://github.com/venturalabs-ai/ventura-art)
 
-Frase-guia do estúdio: **"Todo agente nasce de uma função; toda função, de
-uma entrega; toda entrega, de uma obrigação com o negócio."**
+## Licença
 
-## Arquitetura Token-Efficient & Regenerative
+MIT — consulte [LICENSE](LICENSE).
 
-Este sistema foi projetado sob três princípios fundamentais:
+## Autor
 
-1. **Economia de Tokens** — maximizar valor por token gasto  
-2. **Loop de Alto Rendimento** — cada ciclo deve justificar o consumo  
-3. **Comportamento Regenerativo** — o sistema se reconstrói melhor a cada execução
+Wemerson Mota de Oliveira — Ventura Labs AI
 
-### Ciclo Principal: Explore → Compile → Replay
-
-| Fase | Descrição | Consumo de Tokens |
-|------|-----------|-------------------|
-| **Explore** | Modelo forte descobre o melhor caminho | Alto (único) |
-| **Compile** | Transforma o caminho em skill determinística | Baixo |
-| **Replay** | Executa a skill sem raciocínio completo | Mínimo / Zero |
-| **Regenerate** | Quando o domínio muda, regenera a skill | Sob demanda |
-
-### Regras de Engenharia
-
-- **Token Budget** explícito por especialista e por etapa
-- **Context Engineering** + **Context Compaction** em todas as passagens
-- **Context Firewall** entre sub-agentes (cada um só recebe o necessário)
-- **Prefix Caching** com system prompt estável
-- **Yield-based Stop Condition** (para quando o valor não justifica mais tokens)
-- **Skill Distillation** após caminhos bem-sucedidos
-
-### Resultado esperado
-
-- Redução drástica de tokens em execuções recorrentes
-- Qualidade mantida ou superior
-- Sistema que se auto-otimiza com o uso
+[GitHub](https://github.com/venturalabs-ai) · [LinkedIn](https://www.linkedin.com/in/wemerson-mota-de-oliveira-81aa8226/)
