@@ -1,0 +1,53 @@
+name: Normalize Unsupported Certification Claims
+
+on:
+  push:
+    branches: [agent/evidence-agent2]
+    paths:
+      - "ventura.*.md"
+      - ".github/workflows/claim-normalize.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: agent/evidence-agent2
+          persist-credentials: true
+      - name: Replace unsupported certification wording
+        shell: python
+        run: |
+          from pathlib import Path
+          replacements = {
+              "## Skill & Certificação MIT": "## Skills & referências educacionais",
+              "**Referência de certificação MIT:**": "**Referências educacionais (não constituem certificação do agente):**",
+              "**Referência de Certificação MIT:**": "**Referências educacionais (não constituem certificação do agente):**",
+          }
+          changed = 0
+          for path in sorted(Path('.').glob('ventura.*.md')):
+              text = path.read_text(encoding='utf-8')
+              updated = text
+              for old, new in replacements.items():
+                  updated = updated.replace(old, new)
+              if updated != text:
+                  path.write_text(updated, encoding='utf-8')
+                  changed += 1
+          print(f"normalized={changed}")
+      - name: Commit normalized claims
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- 'ventura.*.md'; then
+            echo "No claim normalization needed"
+            exit 0
+          fi
+          git config user.name "Wemerson Mota de Oliveira"
+          git config user.email "wemerson@venturalabs.ai"
+          git add 'ventura.'*.md
+          git commit -m "docs: clarify educational references are not certifications"
+          git push origin HEAD:agent/evidence-agent2
