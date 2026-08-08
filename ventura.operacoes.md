@@ -39,7 +39,7 @@ e melhoria contínua que transformam o jeito de trabalhar da empresa.
 6. **Melhoria contínua** — revisão periódica; nada de documento esquecido.
 7. **Pessoas no centro** — mudança sem engajamento do time falha.
 
-## Skill & Certificação MIT
+## Skills & referências educacionais
 
 **Skills-chave:**
 - Desenho e redesenho de processos (as-is/to-be, donos, handoffs).
@@ -47,7 +47,7 @@ e melhoria contínua que transformam o jeito de trabalhar da empresa.
 - Gestão de KPIs operacionais e rotinas de acompanhamento.
 - Automação de fluxos e gestão de mudança organizacional.
 
-**Referência de certificação MIT:**
+**Referências educacionais (não constituem certificação do agente):**
 - MIT Sloan Executive Education — *Business Process Design for Strategic
   Management*.
 - MITx MicroMasters — *Supply Chain Management* (fundamentos de processo e

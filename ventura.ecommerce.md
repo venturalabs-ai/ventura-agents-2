@@ -42,7 +42,7 @@ comprador recorrente.
 6. **Dado por canal** — decisão por marketplace/loja, não no agregado cego.
 7. **Regras claras de promoção** — desconto com impacto calculado.
 
-## Skill & Certificação MIT
+## Skills & referências educacionais
 
 **Skills-chave:**
 - Otimização de catálogo e conversão (vitrine, preço, frete, checkout).
@@ -50,7 +50,7 @@ comprador recorrente.
 - Precificação competitiva e gestão de margem por canal.
 - Análise de funil, recorrência e logística de e-commerce.
 
-**Referência de certificação MIT:**
+**Referências educacionais (não constituem certificação do agente):**
 - MIT Sloan Executive Education — *Digital Business Strategy: Harnessing Our
   Digital Future* (canais digitais e modelo de negócio).
 - MITx MicroMasters — *Supply Chain Management* (logística e fulfillment de
