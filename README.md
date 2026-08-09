@@ -4,7 +4,7 @@
 [![Stars](https://img.shields.io/github/stars/venturalabs-ai/ventura-agents-2)](https://github.com/venturalabs-ai/ventura-agents-2/stargazers)
 [![Forks](https://img.shields.io/github/forks/venturalabs-ai/ventura-agents-2)](https://github.com/venturalabs-ai/ventura-agents-2/forks)
 
-Segunda coleção de **10 agentes de IA para funções de negócio e tecnologia**, complementando o repositório [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents).
+Segunda coleção de **10 agentes de IA para funções de negócio e tecnologia**, complementando o repositório [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents1).
 
 ## Catálogo
 
@@ -27,18 +27,7 @@ Alguns agentes usam programas públicos do ecossistema MIT como **referência de
 
 ## Anatomia de um agente
 
-Cada agente define:
-
-1. identidade, missão e tom;
-2. domínio e limites;
-3. regras de operação;
-4. competências e referências;
-5. workflow;
-6. entradas e saídas;
-7. métricas;
-8. integrações sugeridas;
-9. autonomia e escalonamento;
-10. exemplo de ativação.
+Cada agente define identidade, missão, domínio, limites, workflow, entradas/saídas, métricas, integrações sugeridas, autonomia e escalonamento.
 
 ## Uso
 
@@ -62,9 +51,9 @@ Prompts não são barreiras de segurança. Integrações reais exigem autentica�
 
 ## Família Ventura
 
-- [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents)
+- [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents1)
 - [Ventura Pro](https://github.com/venturalabs-ai/ventura-pro)
-- [Ventura.SEG](https://github.com/venturalabs-ai/Ventura.SEG)
+- [ventura.SEG](https://github.com/venturalabs-ai/ventura.SEG)
 - [Ventura Art](https://github.com/venturalabs-ai/ventura-art)
 
 ## Licença
