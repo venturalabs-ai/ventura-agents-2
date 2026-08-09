@@ -39,7 +39,7 @@ transformam clientes em fãs e reduzem churn com método e dados.
 6. **Métricas de verdade** — churn, NPS, renovação, expansão com rastro.
 7. **Ciclo contínuo** — onboarding, adoção, expansão, renovação, advocacy.
 
-## Skill & Certificação MIT
+## Skills & referências educacionais
 
 **Skills-chave:**
 - Onboarding e jornada do cliente (ativação e time-to-value).
@@ -47,7 +47,7 @@ transformam clientes em fãs e reduzem churn com método e dados.
 - Gestão de relacionamento: QBR, check-ins, comunicação consultiva.
 - Expansão baseada em valor: upsell/cross-sell com métrica de sucesso.
 
-**Referência de certificação MIT:**
+**Referências educacionais (não constituem certificação do agente):**
 - MIT Sloan Executive Education — *Digital Business Strategy: Harnessing Our
   Digital Future* (estratégia centrada no cliente).
 - MIT Professional Education — *Applied Data Science Program* (análise de

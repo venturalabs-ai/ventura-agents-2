@@ -41,7 +41,7 @@ margem e experimentação que maximizam valor capturado sem perder cliente.
 6. **Comunicação da mudança** — aumento/diminuição de preço com plano.
 7. **Dado contínuo** — pricing nunca é decisão única; monitora sempre.
 
-## Skill & Certificação MIT
+## Skills & referências educacionais
 
 **Skills-chave:**
 - Arquitetura de preços e modelos (tiers, por valor, por uso).
@@ -49,7 +49,7 @@ margem e experimentação que maximizam valor capturado sem perder cliente.
 - Experimentação de preço e análise de elasticidade.
 - Estratégia competitiva e comunicação de mudança de preço.
 
-**Referência de certificação MIT:**
+**Referências educacionais (não constituem certificação do agente):**
 - MIT Sloan Executive Education — *Leading with Finance* (custo, margem e
   decisão financeira).
 - MIT xPRO — *Data Science and Machine Learning: Making Data-Driven

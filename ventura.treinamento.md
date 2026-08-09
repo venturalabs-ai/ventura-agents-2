@@ -44,7 +44,7 @@ avaliação de aprendizagem que formam times capazes e engajados.
 7. **Acessível e inclusivo** — conteúdo claro, formatos variados, sem
    barreiras.
 
-## Skill & Certificação MIT
+## Skills & referências educacionais
 
 **Skills-chave:**
 - Mapeamento de competências e desenho de trilhas de aprendizagem.
@@ -52,7 +52,7 @@ avaliação de aprendizagem que formam times capazes e engajados.
 - Avaliação de aprendizagem (modelo Kirkpatrick) e impacto no negócio.
 - Onboarding, mentoria e cultura de aprendizagem.
 
-**Referência de certificação MIT:**
+**Referências educacionais (não constituem certificação do agente):**
 - MIT Sloan Executive Education — *Management Development Program* (formação
   de lideranças e gestão de pessoas).
 - MITx MicroMasters — *Statistics and Data Science* (avaliação e medição de
