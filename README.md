@@ -1,67 +1,38 @@
-# Ventura Agents II
+# 📄 README Template Padrão
 
-[![License](https://img.shields.io/github/license/venturalabs-ai/ventura-agents-2)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/venturalabs-ai/ventura-agents-2)](https://github.com/venturalabs-ai/ventura-agents-2/stargazers)
-[![Forks](https://img.shields.io/github/forks/venturalabs-ai/ventura-agents-2)](https://github.com/venturalabs-ai/ventura-agents-2/forks)
+## Preencher conforme o repositório
 
-Segunda coleção de **10 agentes de IA para funções de negócio e tecnologia**, complementando o repositório [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents1).
+# Nome do Repositório
 
-## Catálogo
+> **Descrição curta do que este repositório faz**
 
-| Agente | Função | Entrega principal |
-|---|---|---|
-| `ventura.produto` | Product Management | descoberta, roadmap, backlog e métricas |
-| `ventura.clientes` | Customer Success | onboarding, retenção e expansão |
-| `ventura.operacoes` | Operações | SOPs, eficiência e KPIs |
-| `ventura.suprimentos` | Supply Chain | estoque, fornecedores e demanda |
-| `ventura.seguranca` | Cibersegurança | risco, políticas e resposta a incidentes |
-| `ventura.devops` | DevOps / SRE | CI/CD, infraestrutura e observabilidade |
-| `ventura.pesquisa` | Pesquisa de mercado | concorrência, personas e tendências |
-| `ventura.precificacao` | Pricing | margem, tiers e elasticidade |
-| `ventura.ecommerce` | E-commerce | catálogo, anúncios e operação |
-| `ventura.treinamento` | T&D | trilhas, onboarding e avaliação |
+## 🛠 Tecnologias
 
-## Referências acadêmicas
+- Linguagem: [Python/TypeScript/Etc.]
+- Framework: [Nome do framework]
+- Ferramentas: [Ferramentas usadas]
 
-Alguns agentes usam programas públicos do ecossistema MIT como **referência de conhecimento e método**. Isso não significa certificação do agente, do autor ou do repositório, nem afiliação com o MIT.
+## 🚀 Quick Start
 
-## Anatomia de um agente
-
-Cada agente define identidade, missão, domínio, limites, workflow, entradas/saídas, métricas, integrações sugeridas, autonomia e escalonamento.
-
-## Uso
-
-```text
-1. Escolha o agente.
-2. Carregue o .md como system prompt ou base de configuração.
-3. Forneça contexto e variáveis necessárias.
-4. Conecte ferramentas apenas quando houver autorização e controles adequados.
-5. Valide resultados de alto impacto antes de executar ações externas.
+```bash
+# Instruções de setup
+git clone https://github.com/venturalabs-ai/[repo-name].git
+cd [repo-name]
+# Comandos de instalação
 ```
 
-## Arquitetura de eficiência
+## 📦 Licença
 
-**Explore → Compile → Constrained Replay → Regenerate**
+[MIT License](LICENSE)
 
-Caminhos de alta qualidade podem ser convertidos em templates e skills reutilizáveis para reduzir reprocessamento em tarefas recorrentes. O projeto não afirma determinismo de saídas LLM; consistência depende do modelo, runtime, contexto e ferramentas.
+## 🤝 Como Contribuir
 
-## Segurança
+1. Fork o repositório
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'feat: adicionar nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
 
-Prompts não são barreiras de segurança. Integrações reais exigem autenticação, autorização, least privilege, validação, logs e políticas no lado das ferramentas.
+## 📞 Contato
 
-## Família Ventura
-
-- [Ventura Agents](https://github.com/venturalabs-ai/ventura-agents1)
-- [Ventura Pro](https://github.com/venturalabs-ai/ventura-pro)
-- [ventura.SEG](https://github.com/venturalabs-ai/ventura.SEG)
-- [Ventura Art](https://github.com/venturalabs-ai/ventura-art)
-
-## Licença
-
-MIT — consulte [LICENSE](LICENSE).
-
-## Autor
-
-Wemerson Mota de Oliveira — Ventura Labs AI
-
-[GitHub](https://github.com/venturalabs-ai) · [LinkedIn](https://www.linkedin.com/in/wemerson-mota-de-oliveira-81aa8226/)
+- GitHub: [@venturalabs-ai](https://github.com/venturalabs-ai)
