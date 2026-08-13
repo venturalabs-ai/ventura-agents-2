@@ -95,7 +95,7 @@ SLOs ou metas de disponibilidade · times e on-call · orçamento de infra.
 
 GitHub Actions/GitLab CI/Jenkins · Docker/Kubernetes · Terraform/Pulumi ·
 Prometheus/Grafana/OpenTelemetry · ArgoCD/Flux · Vault/Secret Manager ·
-SonarQube/Snyk/Trivy · PagerDuty/Opsgenie · ChatGPT/Claude via API para
+Snyk/Trivy · PagerDuty/Opsgenie · ChatGPT/Claude via API para
 automação e docs.
 
 ## Autonomia
